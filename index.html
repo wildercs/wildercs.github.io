@@ -1,15 +1,266 @@
----
-layout: default
-title: Inicio
-menu: no
----
-<h1 class="page-title">Lo último</h1>
+<!DOCTYPE html>
+<html>
+    <!-- head -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <!-- Custom index css -->
+    <link rel="stylesheet" href="/css/main.css">
+    <!-- Custom navbar and footer css -->
+    <link rel="stylesheet" href="/css/nav-and-footer.css">
+    <!-- Custom fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- Website icon-->
+    
+
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto+Slab:normal%7CRaleway:500%7CRaleway:700%7CRoboto+Slab:300&amp;subset=latin">
+    
+    <link rel="shortcut icon" href="/images/gradient.ico" />
+    <link rel="canonical" href="http://localhost:4000/">
+    <link rel="alternate" type="application/rss+xml" title="WilderCs" href="http://localhost:4000/feed.xml">
+    <title>WilderCs</title>
+</head>
+
+
+<!--Body-->
+<body>
+    <!--header-->
+    <header class="site-header">
+    <div class="wrapper">
+        <!--
+        <nav class="site-nav">
+            <span class="menu-bar" onclick="openNav()">
+                <svg id="i-menu" viewBox="0 0 32 32" width="28" height="28" fill="none" stroke="#eee"
+                    stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                    <path d="M4 8 L28 8 M4 16 L28 16 M4 24 L28 24" /></svg>
+            </span>
+        </nav> -->
+        <div class="about-my">
+            <div class="menu-item">
+                <a class="  menu-link" href="/about/">Sobre mí</a>
+            </div>
+            <div class="menu-item">
+                <a class="  menu-link" href="/contact/">Contacto</a>
+            </div>
+        </div>
+        <div class="profile">
+            <a href="/">
+                <img class="author-image" alt="site-title" src="https://github.com/wildercs.png">
+            </a>
+            <h1 class="author-about">WilderCs</h1>
+            <div id="social-networks">
+                <a href="https://twitter.com/wildercs" target="_blank" class="fa fa-twitter"></a>
+                <a href="https://www.linkedin.com/in/wildercs/" target="_blank" class="fa fa-linkedin"></a>
+                <a href="https://github.com/wildercs" target="_blank" class="fa fa-github"></a>
+            </div>
+        </div>
+        <br />
+        <div class="menu-category">
+            <div class="menu-item"><a class="  menu-link"
+                    href="/code/">Code</a></div>
+            <div class="menu-item"><a class="  menu-link"
+                    href="/iot/">IoT</a></div>
+            <div class="menu-item"><a class="  menu-link"
+                    href="/life/">Life</a></div>
+        </div>
+    </div>
+</header>
+    <!-- 
+    <div class="jumbotron" id="jumbo1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-auto">
+                    <div class="profile-info-left">
+                        <img src="https://github.com/wildercs.png">
+                        <h1 style="margin-top: 15px;">WilderCs</h1>
+                        <hr align="center">
+                        <h3>iOS/Android Developer</h1>
+                        <h4>Trujillo, Perú</h4>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <p>Full time dog dad, part time programmer. Flipping between <span id="swift">Swift</span> and
+                        <span id="ruby">Ruby</span>. I like to travel.
+                    </p>
+                    <p>Summer intern at <a href="https://www.github.com" id="github">GitHub</a>, previously at <a
+                            href="#" id="shopify">Android</a>.
+                    </p>
+                    <p>Apple <a href="#" id="wwdc">WWDC</a> --. </p>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <div class="page-content">
+        <div class="container">
+            <h1 class="page-title">Lo último</h1>
 <div class="home">
 <div class="post-list">
-{% for post in site.posts %}
-<a style="text-decoration:none"  href="{{ post.url | prepend: site.baseurl }}">
-      {% include post-cards.html %}
+
+<a style="text-decoration:none"  href="/my-new-post/">
+      
+
+
+
+
+
+
+
+<div class="card custom_card" id="newpost">
+  
+    <div class="ribbon"><span>code</span><span id="tagnew">NEW!</span></div>
+    
+  <div class="row">
+    <div class="col-md-2">
+      <div class="post-meta">
+        <h1 class="date">22</h1>
+        <span>Feb</span>
+      </div>
+    </div>
+    <div class="col-md-10 center_col">
+      <p class="post-link">My New Post</p>
+      <p class="post-excerpt">You’ll find this post in your `_posts` directory.</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
 </a>
-{% endfor %}
+
+<a style="text-decoration:none"  href="/welcome-to-jekyll/">
+      
+
+
+
+
+
+
+
+<div class="card custom_card" id="newpost">
+  
+    <div class="ribbon"><span>code</span><span id="tagnew">NEW!</span></div>
+    
+  <div class="row">
+    <div class="col-md-2">
+      <div class="post-meta">
+        <h1 class="date">21</h1>
+        <span>Feb</span>
+      </div>
+    </div>
+    <div class="col-md-10 center_col">
+      <p class="post-link">Welcome to Jekyll!</p>
+      <p class="post-excerpt">You’ll find this post in your `_posts` directory.</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+</a>
+
 </div>
 </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+<footer>
+    <hr style="margin-top: 0px;">
+    <div class="container text-center">
+        <!--div class="row">
+            <div class="container">
+                <ul class="list-inline d-flex justify-content-center">
+                    <li>
+                        <a href="https://www.twitter.com/wildercs">
+                            <span class="fa-stack fa-2x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/wildercs">
+                            <span class="fa-stack fa-2x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/wildercs">
+                            <span class="fa-stack fa-2x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/wildercs11/">
+                            <span class="fa-stack fa-2x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/wildercs">
+                            <span class="fa-stack fa-2x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:wildercs11@gmail.com">
+                            <span class="fa-stack fa-2x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div-->
+        <div style="text-align:center" class="footer-col footer-col-2">
+            <p><strong>2020 ~ <a href="http://localhost:4000">WilderCs</a> ~
+                </strong><em>v1.0</em></p>
+        </div>
+    </div>
+
+    
+        <!-- Google Analytics -->
+    <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-1','auto');
+        ga('send', 'pageview');
+    </script>
+    
+
+    <script>
+        /* Set the width of the side navigation to 250px */
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+        /* Set the width of the side navigation to 0 */
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+
+</footer>
+<script src="/js/jquery-3.4.1.min.js">
+</script>
+<script src="/js/bootstrap.min.js">
+</script>
+
+</body>
+
+</html>
