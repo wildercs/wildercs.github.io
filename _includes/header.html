@@ -1,0 +1,40 @@
+<header class="site-header">
+    <div class="wrapper">
+        <!--
+        <nav class="site-nav">
+            <span class="menu-bar" onclick="openNav()">
+                <svg id="i-menu" viewBox="0 0 32 32" width="28" height="28" fill="none" stroke="#eee"
+                    stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                    <path d="M4 8 L28 8 M4 16 L28 16 M4 24 L28 24" /></svg>
+            </span>
+        </nav> -->
+        <div class="about-my">
+            <div class="menu-item">
+                <a class="{% if page.url == '/about/' %}active{% endif %}  menu-link" href="{{site.baseurl}}/about/">Sobre mí</a>
+            </div>
+            <div class="menu-item">
+                <a class="{% if page.url == '/contact/' %}active{% endif %}  menu-link" href="{{site.baseurl}}/contact/">Contacto</a>
+            </div>
+        </div>
+        <div class="profile">
+            <a href="{{site.baseurl}}/">
+                <img class="author-image" alt="site-title" src="https://github.com/wildercs.png">
+            </a>
+            <h1 class="author-about">{{site.title}}</h1>
+            <div id="social-networks">
+                <a href="https://twitter.com/wildercs" target="_blank" class="fa fa-twitter"></a>
+                <a href="https://www.linkedin.com/in/wildercs/" target="_blank" class="fa fa-linkedin"></a>
+                <a href="https://github.com/wildercs" target="_blank" class="fa fa-github"></a>
+            </div>
+        </div>
+        <br />
+        <div class="menu-category">
+            <div class="menu-item"><a class="{% if page.url == '/code/' %}active{% endif %}  menu-link"
+                    href="{{site.baseurl}}/code/">Code</a></div>
+            <div class="menu-item"><a class="{% if page.url == '/iot/' %}active{% endif %}  menu-link"
+                    href="{{site.baseurl}}/iot/">IoT</a></div>
+            <div class="menu-item"><a class="{% if page.url == '/life/' %}active{% endif %}  menu-link"
+                    href="{{site.baseurl}}/life/">Life</a></div>
+        </div>
+    </div>
+</header>

@@ -1,0 +1,84 @@
+<!--Footer-->
+<footer>
+    <hr style="margin-top: 0px;">
+    <div class="container text-center">
+        <!--div class="row">
+            <div class="container">
+                <ul class="list-inline d-flex justify-content-center">
+                    <li>
+                        <a href="https://www.twitter.com/wildercs">
+                            <span class="fa-stack fa-2x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/wildercs">
+                            <span class="fa-stack fa-2x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/wildercs">
+                            <span class="fa-stack fa-2x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/wildercs11/">
+                            <span class="fa-stack fa-2x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/wildercs">
+                            <span class="fa-stack fa-2x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:wildercs11@gmail.com">
+                            <span class="fa-stack fa-2x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div-->
+        <div style="text-align:center" class="footer-col footer-col-2">
+            <p><strong>20{{site.time | date: '%y'}} ~ <a href="{{site.url}}">{{site.title}}</a> ~
+                </strong><em>v{{site.version}}</em></p>
+        </div>
+    </div>
+
+    {% if site.analytics %}
+    {% include analytics.html %}
+    {% endif %}
+
+    <script>
+        /* Set the width of the side navigation to 250px */
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+        /* Set the width of the side navigation to 0 */
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+
+</footer>
+<script src="{{site.baseurl}}/js/jquery-3.4.1.min.js">
+</script>
+<script src="{{site.baseurl}}/js/bootstrap.min.js">
+</script>

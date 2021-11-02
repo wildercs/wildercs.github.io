@@ -84,6 +84,15 @@ body {
 }
 */
 
+.about-my {
+  text-align: right;
+  margin-right: 10px;
+  padding-top: 3px;
+}
+.about-my a{
+  color: #FFF;
+  font-weight: bold;
+}
 
 /*--Navbar--*/
 
@@ -159,7 +168,7 @@ footer hr {
 }
 footer {
   background-color: #eee;
-  padding-bottom: 100px;
+  padding-bottom: 10px;
 }
 .fa-stack.fa-2x {
   color: #5a5a5a;

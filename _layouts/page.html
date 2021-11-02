@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<h1 class="page-title">{{page.title}}</h1>
+{% if page.url == '/about/' %}
+    <div class="my-content">
+        {{ content }}
+    </div>
+{% else %}
+    {{ content }}
+{% endif %}
+    
